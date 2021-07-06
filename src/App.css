@@ -1,5 +1,21 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
+}
+
+.grid-container {
+  min-height: 500px;
 }
 
 .App-logo {
@@ -14,7 +30,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+ 	--tw-bg-opacity: 1;
+  background-color: rgba(238, 242, 255, var(--tw-bg-opacity));
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +41,11 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Profile-bg {
+  --tw-bg-opacity: 1;
+  background-color: rgba(238, 242, 255, var(--tw-bg-opacity));
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-link {
+  color: #61dafb;
 }
